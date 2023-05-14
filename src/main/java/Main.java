@@ -8,5 +8,6 @@ public class Main {
     public static void main(String[] args) {
         greet("Vlad");
         greet("Vlad", "Hi");
+        greet("Yulia");
     }
 }
