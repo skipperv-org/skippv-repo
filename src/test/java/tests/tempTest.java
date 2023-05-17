@@ -21,9 +21,6 @@ public class tempTest {
 //        driver.findElement(By.xpath("//textarea[@name='q']")).sendKeys("google");
         Assert.assertTrue(driver.findElement(By.xpath("//button[@title='Налаштування мови']")).isEnabled());
 
-
-//        new Actions(driver)
-//                .click(driver.findElement(By.xpath("//div[@class='products-list-item prc__item products-list-item--grid']")));       ;
     }
 
 //    protected void clickJS(WebElement element) {
