@@ -16,6 +16,7 @@
         <suite>testSuite</suite>
     </properties>
 
+
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
