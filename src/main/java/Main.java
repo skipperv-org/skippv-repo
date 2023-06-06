@@ -10,7 +10,6 @@ public class Main {
         int n=0;
 
         incrementInt(n);
-
         System.out.println(n);
     }
 }
