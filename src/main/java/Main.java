@@ -1,11 +1,16 @@
 import java.util.Random;
 
 public class Main {
-    public static void greet(String name, String greeting ="Hello") {
-        System.out.println(greeting + ", " + name + "!");
+
+    public static void incrementInt(int currentInt) {
+        currentInt++;
     }
 
     public static void main(String[] args) {
-        greet("Vlad", "Hi");
+        int n=0;
+
+        incrementInt(n);
+
+        System.out.println(n);
     }
 }

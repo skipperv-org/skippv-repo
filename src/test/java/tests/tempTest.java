@@ -23,9 +23,11 @@ public class tempTest {
 
     }
 
-//    protected void clickJS(WebElement element) {
-//        jse.executeScript("arguments[0].click()", element);
-//    }
+    protected List<WebElement> getListOfVisibleElementsByXpath(String locator) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(E (By.xpath(locator)));
+    }
+
 //
 //    public static void scrollForElement(WebElement element, WebDriver drv) {
 //        ((JavascriptExecutor) drv).executeScript("arguments[0].scrollIntoView(true);", element);
